@@ -55,6 +55,5 @@ class UartReadLineSensor : public Component, public UARTDevice, public TextSenso
         ESP_LOGD("uart_readline", "Publishing filtered state: %s", buffer);
       }
     }
-  }
-  
+  }  
 };
